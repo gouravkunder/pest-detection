@@ -1,0 +1,25 @@
+{
+  "architecture": "ResNet152V2",
+  "input_size": [
+    224,
+    224,
+    3
+  ],
+  "number_of_classes": 9,
+  "class_names": [
+    "aphids",
+    "armyworm",
+    "beetle",
+    "bollworm",
+    "grasshopper",
+    "mites",
+    "mosquito",
+    "sawfly",
+    "stem_borer"
+  ],
+  "validation_split": 0.2,
+  "seed": 42,
+  "fine_tune_layers": 30,
+  "pretrained_weights": "ImageNet",
+  "best_validation_loss": 0.027472808957099915
+}
